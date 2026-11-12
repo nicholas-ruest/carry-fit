@@ -1,0 +1,96 @@
+[bag]
+name = "Weekend carry-on"
+max_weight_grams = 4200
+max_volume_ml = 12000
+
+[[item]]
+id = "passport"
+name = "Passport"
+weight_grams = 40
+volume_ml = 30
+score = 100
+required = true
+
+[[item]]
+id = "phone"
+name = "Phone"
+weight_grams = 190
+volume_ml = 100
+score = 95
+required = true
+
+[[item]]
+id = "charger"
+name = "USB-C charger"
+weight_grams = 120
+volume_ml = 90
+score = 40
+
+[[item]]
+id = "power-bank"
+name = "Power bank"
+weight_grams = 320
+volume_ml = 220
+score = 32
+needs = ["charger"]
+
+[[item]]
+id = "rain-shell"
+name = "Rain shell"
+weight_grams = 340
+volume_ml = 1500
+score = 45
+group = "outerwear"
+
+[[item]]
+id = "wool-coat"
+name = "Wool coat"
+weight_grams = 1400
+volume_ml = 6200
+score = 52
+group = "outerwear"
+
+[[item]]
+id = "walking-shoes"
+name = "Walking shoes"
+weight_grams = 780
+volume_ml = 3500
+score = 48
+group = "spare-footwear"
+
+[[item]]
+id = "dress-shoes"
+name = "Dress shoes"
+weight_grams = 1050
+volume_ml = 4200
+score = 38
+group = "spare-footwear"
+
+[[item]]
+id = "packing-cube"
+name = "Packing cube"
+weight_grams = 90
+volume_ml = 300
+score = 12
+
+[[item]]
+id = "clothes"
+name = "Two-day clothing set"
+weight_grams = 1600
+volume_ml = 4800
+score = 85
+needs = ["packing-cube"]
+
+[[item]]
+id = "book"
+name = "Paperback book"
+weight_grams = 330
+volume_ml = 500
+score = 18
+
+[[item]]
+id = "camera"
+name = "Mirrorless camera"
+weight_grams = 620
+volume_ml = 1300
+score = 34
